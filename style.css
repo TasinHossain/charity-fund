@@ -4,6 +4,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Playfair Display', serif;
     text-align: center;
+    align-items: center;
     margin: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -13,6 +14,7 @@ body {
 h1 {
     color: rgba(255, 255, 255, 0.718);
     font-size: 500%;
+    text-align: center;
     padding-top: 175px;
     padding-bottom: 150px;
     letter-spacing: 3px;
@@ -21,6 +23,7 @@ h1 {
 h2 {
     font-family: 'Times New Roman', Times, serif;
     color: rgba(255, 255, 255, 0.838);
+    text-align: center;
     letter-spacing: 5px;
     padding-top: 75px;
     margin: 50px;
@@ -38,6 +41,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
     padding-top: 0px;
     padding-bottom: 80px;
 }
@@ -55,5 +59,100 @@ span {
     background-image: linear-gradient(rgba(166, 18, 18, 0.741), rgba(177, 15, 15, 0.867));
     padding: 10px 40px;
     border-radius: 5px;
+    text-align: center;
     font-weight: 700;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline rgba(255, 0, 0, 0.653);
+}
+
+.section-two {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    box-shadow: 8px 8px 16px grey;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(209, 248, 253, 0.645);
+}
+
+.card2 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    box-shadow: 8px 8px 16px grey;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(255, 182, 193, 0.774);
+}
+
+.card3 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    box-shadow: 8px 8px 16px grey;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(255, 255, 184, 0.801);
+}
+
+.write {
+    color: black;
+}
+
+.food-icon {
+    width: 50px;
+}
+
+section {
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.half-width img {
+    width: 100%;
+    padding: 4%;
+    margin: 5%;
+    border: 0px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 4%;
+    margin: 0px;
+    border: 0px;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+}
+
+.donation {
+    color: black;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    font-weight: 500;
+
 }
