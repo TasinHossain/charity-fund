@@ -66,6 +66,10 @@ span {
     font-weight: 700;
 }
 
+.money {
+    color: black;
+}
+
 .title2 {
     text-align: center;
     font-size: 40px;
@@ -76,6 +80,103 @@ span {
 }
 
 .section-two {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.amount1 {
+    height: 100px;
+    width: 250px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 70px;
+    margin: 10px;
+    background-color: rgba(235, 227, 227, 0.718);
+}
+
+
+.amount2 {
+    height: 100px;
+    width: 250px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 70px;
+    margin: 10px;
+    background-color: rgba(235, 227, 227, 0.718);
+}
+
+.amount3 {
+    height: 100px;
+    width: 250px;
+    border: 5px solid rgb(206, 48, 48);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(205, 58, 58);
+    text-align: center;
+    padding: 70px;
+    margin: 10px;
+    background-color: rgba(233, 161, 161, 0.718);
+}
+
+.amount4 {
+    height: 100px;
+    width: 250px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 70px;
+    margin: 10px;
+    background-color: rgba(235, 227, 227, 0.718);
+}
+
+.amount5 {
+    height: 100px;
+    width: 250px;
+    border: 1px solid rgb(74, 70, 70);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 70px;
+    margin: 10px;
+    background-color: rgba(235, 227, 227, 0.718);
+}
+
+.input {
+    color: grey;
+    font-size: 25px;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 3px solid rgb(187, 180, 180);
+}
+
+.title3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline rgba(255, 0, 0, 0.653);
+}
+
+.section-three {
     margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
@@ -122,6 +223,8 @@ span {
 
 .write {
     color: black;
+    font-size: 20px;
+    padding-top: -10%;
 }
 
 .food-icon {
@@ -143,7 +246,7 @@ section {
 .half-width {
     width: 50%;
     padding: 4%;
-    margin: 0px;
+    margin: 60px;
     border: 0px;
     color: black;
     text-align: left;
