@@ -1,0 +1,59 @@
+body {
+    color: rgba(255, 255, 255, 0.847);
+    font-family: 'Cardo', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.718);
+    font-size: 500%;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.838);
+    letter-spacing: 5px;
+    padding-top: 75px;
+    margin: 50px;
+    font-weight: 800;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+span {
+    color: rgba(246, 3, 3, 0.553);
+    font-weight: 800px;
+
+}
+
+
+.link-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(166, 18, 18, 0.741), rgba(177, 15, 15, 0.867));
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
